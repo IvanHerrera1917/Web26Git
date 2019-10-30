@@ -1,0 +1,80 @@
+  https://codepen.io/IvanHerrera/pen/gOOGggN?editors=1100
+  
+  1. What is Semantic HTML? 
+      Introduce meaning to the code.
+    2. What is HTML used for? 
+      To create web pages
+    3. What is an attribute and where do we put it? 
+      attributes provide adiotional information about an element and are always specified in the star tag.
+    4. What is the h1 tag used for? How many times should I use it on a page?
+       It's use for the first title and only one time.
+    5. Name two tags that have required attributes
+      <a> and <ima>
+    6. What do we put in the head of our HTML document? 
+      The HEAD element contains information about the current document, such as its title, keywords that may be useful to 
+      search engines, and other data that is not considered document content.
+    7. What is an id? 
+      The id attribute is a unique identifier which is used to specify the document.
+    8. What elements can I add an id to? 
+    9. How many times can I use the same id on a page? 
+       1 time.
+    10. What is a class? 
+       The class is an attribute which specifies one or more class names for an HTML element
+    11. What elements can I add a class to?
+       All the elements.
+    12. How many times can I use the same class on a page? 
+       One time.
+    13. How do I get my link to open in a new tab?
+       The short answer is: just add a target="_blank" attribute to your links (anchor tags). Now when your visitors click that
+       link, it will open in a new window or tab.
+    14. What is the alt attribute used for? 
+       Specifies an alternate text for an image, if the image cannot be displayed.
+    15. How do I reference an id?
+        id= "xxx"
+    16. What is the difference between a section and a div
+        The <section> tag defines sections in a document, such as chapters, headers, footers, or any other sections of the 
+        document. ... The <div> tag defines a division or a section in an HTML document.
+    17. What is CSS used for? 
+        CSS is the language for describing the presentation of Web pages, including colors, layout, and fonts. 
+    18. How to we select an element? Example - every h2 on the page
+        h2{}
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+        You can assign a class to many elements. ... An example would be if you wanted to give all the paragraphs on your webpage 
+        the same styling, you would use classes. Standards specify that any given ID name can only be referenced once within a      
+        page or document.
+    20. How do we select classes in CSS?
+        .class{}
+    21. How do we select a p element with a single class of “human””?
+        .human p{}
+    22. What is a parent child selector? When would this be useful? 
+        The ("parent > child") selector selects all elements that are a direct child of the specified element.
+    23. How do you select all links within a div with the class of sidebar?
+    24. What is a pseudo selector?
+     A pseudo-class is a selector that selects elements that are in a specific state, e.g. they are the first element of their type, 
+     
+     or they are being hovered over by the mouse pointer.
+    25. What do we use the change the spacing between lines?
+    line-height:
+    26. What do we use to change the spacing between letters?
+    letter-spacing:
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+    text-transforn:
+    28. How do I add a 1px border around my div that is dotted and black?
+    border: 1px botted black;
+    29. How do I select everything on the page?
+    *{}
+    30. How do I write a comment in CSS?
+     Start a comment with /* , and end it with */ . 
+    31. How do I find out what file I am in, when I am using the command line?  
+    git status
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+    ls
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+    git reset
+    34. Why should I use version control? 
+    because it helps to keep track of everything you make and it's easier when yoy are working with more people because thats where 
+    all the information it's goona stay and you can merge everything with no problems.
+    35. How often should I commit to github? 
+    every 20 minutes
+    36. What is the command we would use to push our repo up to github?  
+    git push
